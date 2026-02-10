@@ -1,0 +1,26 @@
+#sondagem12{
+    background-color: #0c0c0c;
+    border-left: 30px solid #da5a05;
+    border-right: 29px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#infodisciplinas{
+    height: 85vh;
+    
+}
+#cont2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#cont2>article>p{
+    width: 50vw;
+    color: white;
+    margin-bottom: 10px;
+
+}

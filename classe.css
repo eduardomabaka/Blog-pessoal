@@ -1,0 +1,231 @@
+
+/* conteudo */
+
+#main{
+    margin-top: 110px;
+}
+.conteudo1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#ex{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#texto{
+    width: 50vw;
+}
+.conteudo1>article>ol{
+    margin-left: 50px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#top{
+    display: flex;
+    gap: 70px;
+
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: start;
+    gap: 30px;
+}
+.lista>p{
+    width: 55vw;
+    padding-left: 7px;
+    border-left: 2px solid  orange;
+}
+.lista>li{
+    color: white;
+}
+.conteudo1>article>ol>div>li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #c46728;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+}
+.conteudo1>article>ol>div>li:hover{
+    background-color: #9b4003;
+}
+
+main img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 3px solid orange;
+} 
+main img:hover{
+    box-shadow: 0px 0px 10px black;
+
+}
+
+
+.t2{
+    text-align: center;
+}
+/* memorias */
+#cont{
+    background-color: #da5a05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cont>p{
+    color: #f5f0f0;
+    margin-bottom: 10px;
+    width: 80vw;
+}
+/* conteudo 2 */
+.conteudo2{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.conteudo2>p{
+    width: 60vw;
+}
+
+/* aside */
+aside{
+    font-size: 10px;
+    justify-self: center;
+    padding: 10px;
+    width: 15vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+}
+#lateral{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#caixa1{
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    width: 15vw;
+    height:300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#imagem{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+/* aside fim */
+/* desempenho */
+#sondagem1{
+    background-color: #0c0c0c;
+    border-left: 60px solid #da5a05;
+    border-right: 2px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+#sondagem2{
+    background-color: #da5a05;
+    border-left: 10px solid #da5a05;
+    border-right: 50px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+#sondagem3{
+    background-color: #0c0c0c;
+    border-left: 50px solid #da5a05;
+    border-right: 10px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+#sondagem4{
+    background-color: #0c0c0c;
+    border-left: 40px solid #da5a05;
+    border-right: 17px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+#sondagem5{
+    background-color: #0c0c0c;
+    border-left: 60px solid #da5a05;
+    border-right: 2px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+#sondagem6{
+    background-color: #0c0c0c;
+    border-left: 60px solid #da5a05;
+    border-right: 2px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+#sondagem7{
+    background-color: #0c0c0c;
+    border-left: 60px solid #0c0c0b;
+    border-right: 2px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+#sondagem8{
+    background-color: #0c0c0c;
+    border-left: 30px solid #da5a05;
+    border-right: 29px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+#sondagem9{
+    background-color: #0c0c0c;
+    border-left: 60px solid #da5a05;
+    border-right: 2px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+#sondagem10{
+    background-color: #0c0c0c;
+    border-left: 60px solid #da5a05;
+    border-right: 2px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
+#sondagem11{
+    background-color: #0c0c0c;
+    border-left: 60px solid #da5a05;
+    border-right: 2px solid #0c0b0b;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
