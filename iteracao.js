@@ -23,6 +23,6 @@ setTimeout(()=>{
 },0)
 setTimeout(()=>{
     corpo.style.display="flex"
-    footer.style.display="none"
+    footer.style.display="flex"
     load.style.display="none"
 },3000)
